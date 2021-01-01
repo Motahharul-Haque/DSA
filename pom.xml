@@ -11,6 +11,7 @@
     <modules>
         <module>Algorithms</module>
         <module>Data_Structures</module>
+        <module>Hashing</module>
     </modules>
 
     <properties>
