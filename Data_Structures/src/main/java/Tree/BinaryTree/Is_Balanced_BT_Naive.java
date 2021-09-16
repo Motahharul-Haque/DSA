@@ -8,7 +8,7 @@ public class Is_Balanced_BT_Naive {
         root.right.left = new Node(15);
         root.right.right = new Node(20);
 
-        if (isBalanced(root) == true) {
+        if (isBalanced(root)) {
             System.out.println("Balanced");
         }
         else{
