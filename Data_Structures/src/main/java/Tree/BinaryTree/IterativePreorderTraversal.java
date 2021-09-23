@@ -20,7 +20,7 @@ public class IterativePreorderTraversal {
         Stack<Node> s = new Stack<>();
         s.push(root);
 
-        while (s.empty() == false){
+        while (!s.empty()){
             Node curr = s.peek();
             System.out.println(curr.key + " ");
             s.pop();
